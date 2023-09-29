@@ -23,7 +23,7 @@ class Card:
             self.isA = True
 
     def __str__(self) -> str:
-        return f"{self.__shape} {self.__value}"
+        return f"|{self.__shape}{self.__value}|"
 
     def __repr__(self) -> str:
         return self.__str__()

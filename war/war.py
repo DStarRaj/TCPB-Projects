@@ -10,7 +10,6 @@ class Card:
 
     def __post_init__(self) -> None:
         self.value_map = {
-            "A": 1,
             "2": 2,
             "3": 3,
             "4": 4,
@@ -23,6 +22,7 @@ class Card:
             "J": 11,
             "Q": 12,
             "K": 13,
+            "A": 14,
         }
         self.rank = self.value_map[self.value]
 

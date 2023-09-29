@@ -27,7 +27,7 @@ class Hand:
 
     def getNear21(self) -> int:
         allSum = self.getAllSum()
-        near21 = allSum[-1]
+        near21 = self.getMinSum()
         for each in allSum:
             if each > near21 and each <= 21:
                 near21 = each
