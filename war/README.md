@@ -25,7 +25,7 @@ python war.py
 ```
 
 ### Inputs to the Game
-For visual representation and for the sake of Game enjoyments, it asks for the two players name which is needed as input to the Game and nothing else, not the program will run it's simulation to evaluate who is the winner.
+To enhance the game experience, the program requests the names of the two players as input. No additional information is needed. The program will then use this input to run its simulation and determine the winner.
 
 ### Somthing to keep in mind
 In this simulation of the game, outcomes are entirely dictated by the random distribution of cards to players. A player's chance of winning is solely dependent on this randomness, not on their skills. This factor significantly influences the game's progression and duration; based on my tests, specific distributions can make the game last much longer.
