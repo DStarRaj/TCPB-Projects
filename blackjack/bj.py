@@ -1,5 +1,5 @@
-from deck import Deck
-from player import Player
+from utilities.deck import Deck
+from utilities.player import Player
 
 
 def displayHands(dealer: Player, player: Player, showDealer: bool = False) -> None:

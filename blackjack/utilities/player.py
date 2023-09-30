@@ -1,5 +1,5 @@
-from hand import Hand
-from chip import Chip
+from .hand import Hand
+from .chip import Chip
 
 
 class Player:
